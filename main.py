@@ -106,17 +106,28 @@ class MainForm(QWidget):
     # Функция работы кнопки "Сохранить в Exel"
     def SaveToExel(self):
         try:
+            # Флаг для проверки наличия данных
+            has_data = False
+
+            # Сохранение данных о маршрутах, если они есть
             if self.data_routes:
                 df_routes = pd.DataFrame(self.data_routes, columns=["Станция", "Количество рейсов"])
                 file_path_routes = "data_output_count_routes.xlsx"
                 df_routes.to_excel(file_path_routes, index=False, engine='openpyxl')
+                has_data = True
 
+            # Сохранение данных о пассажирах, если они есть
             if self.data_passengers:
                 df_passengers = pd.DataFrame(self.data_passengers, columns=["Описание", "Значение"])
                 file_path_passengers = "data_output_count_passengers.xlsx"
                 df_passengers.to_excel(file_path_passengers, index=False, engine='openpyxl')
+                has_data = True
 
-            self.show_text("Данные успешно сохранены.")
+            # Вывод сообщения в зависимости от наличия данных
+            if has_data:
+                self.show_text("Данные успешно сохранены.")
+            else:
+                self.show_text("Нет данных для сохранения.")
         except Exception as e:
             self.show_text(f"Ошибка при сохранении: {str(e)}")
 
