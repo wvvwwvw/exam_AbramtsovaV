@@ -14,7 +14,7 @@
 
 На стартовом окне расположены 3 кнопки и окно для вывода текста и диаграммы
 
-![image](https://github.com/user-attachments/assets/d4e3a8a6-cfe8-4b5b-bd26-a3c845a7ef7f)
+![image](https://github.com/user-attachments/assets/19add1de-3278-42cf-88ba-7c4b4beadf81)
 
 
 # Задания
@@ -24,25 +24,25 @@
 
 Количество рейсов до каждой станции выводится в виде диаграммы при нажатии на кнопку "Посчитать количество рейсов"
 
-![image](https://github.com/user-attachments/assets/526d85e2-62be-4cd9-ab86-2ec5b38d58d9)
+![image](https://github.com/user-attachments/assets/772731d8-ebd5-4804-806e-097bcbe73854)
 
 
 - каково общее количество пассажиров?
 
 Количество пассажиров выводится в текстовом формате при нажании на кнопку "Посчитать количество пассажиров"
 
-![image](https://github.com/user-attachments/assets/80c237a1-91c8-4437-b69c-c2329d75adbb)
+![image](https://github.com/user-attachments/assets/0b1be795-bcb6-41c4-903c-f14f327d65f7)
 
 
 # Вывод результатов в Excel
 
 При нажатии на кнопку "Сохранить в Excel" с невыведенной информацией в окно вывода, отобразится сообщение
 
-![image](https://github.com/user-attachments/assets/075989c9-528c-44f3-b281-3eb0dfb7e08d)
+![image](https://github.com/user-attachments/assets/1b65563f-3103-42fc-83c3-ddae7d82673a)
 
 При нажатии на кнопку "Сохранить в Excel" после нажатия на кнопку "Посчитать количество рейсов" или "Посчитать количество пассажиров" всплывет сообщение
 
-![image](https://github.com/user-attachments/assets/d45b65f7-7dac-4fff-a79a-44987de7c228)
+![image](https://github.com/user-attachments/assets/f5af64f2-7c18-4be5-a7fb-751051d43377)
 
 
 # Сохраненные данные в Excel
