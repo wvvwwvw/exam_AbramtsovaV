@@ -103,7 +103,7 @@ class MainForm(QWidget):
         except mysql.connector.Error as err:
             self.show_text(f"Ошибка: {err}")
 
-    # Функция работы кнопки "Сохранить в Exel"
+    # Функция работы кнопки "Сохранить в Excel"
     def SaveToExel(self):
         try:
             # Флаг для проверки наличия данных

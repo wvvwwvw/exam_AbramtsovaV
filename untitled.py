@@ -41,4 +41,4 @@ class Ui_Form(object):
         Form.setWindowTitle(_translate("Form", "examProgramm"))
         self.countPassengers.setText(_translate("Form", "Посчитать количество пассажиров"))
         self.countRoetes.setText(_translate("Form", "Посчитать количество рейсов"))
-        self.saveExel.setText(_translate("Form", "Сохранить в Exel"))
+        self.saveExel.setText(_translate("Form", "Сохранить в Excel"))
